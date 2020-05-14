@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "231588024641",
+    "firebase_url": "https://alimapp.firebaseio.com",
+    "project_id": "alimapp",
+    "storage_bucket": "alimapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231588024641:android:f0ce163cf27b6bf87ed1c0",
+        "android_client_info": {
+          "package_name": "com.example.interfaz1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231588024641-n8iv32jgplq20t3p21lmisol5vib6nv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.interfaz1",
+            "certificate_hash": "f9158110b9d25a241f285cbb9e38e3860cbfc7aa"
+          }
+        },
+        {
+          "client_id": "231588024641-gtqt53ametjn39c1fbqs3mjmmrehjeba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAolznBYi51bbQR7W7ImUFDD0-ASOSxoD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231588024641-gtqt53ametjn39c1fbqs3mjmmrehjeba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

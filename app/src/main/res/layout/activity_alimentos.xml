@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.interfaces.Alimentos">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:gravity="center"
+        android:text="@string/tituloAlimentos"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <SearchView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="344dp"
+        android:layout_marginLeft="344dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@android:drawable/ic_search_category_default" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="664dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/aguacate"
+                android:text="Aguacate" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:background="@drawable/carne"
+                android:text="Carne de res" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:background="@drawable/cebolla"
+                android:text="Cebolla cabezona" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:background="@drawable/kiwis"
+                android:text="Kiwi" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:background="@drawable/manzanas"
+                android:text="Manzana" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:background="@drawable/arbeja"
+                android:text="Habichuela" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:background="@drawable/mangos"
+                android:text="Mango" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

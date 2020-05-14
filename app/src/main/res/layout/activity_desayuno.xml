@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu1"
+    tools:context="com.example.interfaces.Desayuno">
+
+    <TextView
+        android:id="@+id/desayuno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desayuno"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+
+    <ImageView
+        android:id="@+id/desayuno1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/desayuno"
+        android:layout_alignEnd="@id/desayuno"
+        android:layout_alignRight="@id/desayuno"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="-255dp"
+        android:layout_marginRight="215dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/descripcion"
+        app:srcCompat="@drawable/desayuno"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="63dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/huevos"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/desayuno1"
+        android:layout_alignEnd="@id/desayuno1"
+        android:layout_alignRight="@id/desayuno1"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginRight="224dp"
+        android:contentDescription="@string/descripcion"
+        app:srcCompat="@drawable/huevos"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <ImageView
+        android:id="@+id/leche"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/huevos"
+        android:layout_alignEnd="@id/huevos"
+        android:layout_alignRight="@id/huevos"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-0dp"
+        android:layout_marginRight="-0dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/descripcion"
+        app:srcCompat="@drawable/leche"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <ImageView
+        android:id="@+id/pan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/leche"
+        android:layout_alignEnd="@id/leche"
+        android:layout_alignRight="@id/leche"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-0dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/descripcion"
+        app:srcCompat="@drawable/pan"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <ImageView
+        android:id="@+id/pina"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/pan"
+        android:layout_alignEnd="@id/pan"
+        android:layout_alignRight="@id/pan"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-0dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/descripcion"
+        app:srcCompat="@drawable/pina"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <ImageView
+        android:id="@+id/arroz"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/pina"
+        android:layout_alignEnd="@id/pina"
+        android:layout_alignRight="@id/pina"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-0dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/descripcion"
+        app:srcCompat="@drawable/arroz"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <ImageView
+        android:id="@+id/tomate"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/arroz"
+        android:layout_alignEnd="@id/arroz"
+        android:layout_alignRight="@id/arroz"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-0dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/descripcion"
+        app:srcCompat="@drawable/tomate"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+
+</RelativeLayout>

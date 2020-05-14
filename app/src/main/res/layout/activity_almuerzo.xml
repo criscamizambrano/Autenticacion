@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu2"
+    tools:context="com.example.interfaces.Almuerzo">
+
+    <TextView
+        android:id="@+id/almuerzo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cena"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/opcion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/almuerzo"
+        android:layout_alignEnd="@id/almuerzo"
+        android:layout_alignRight="@id/almuerzo"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-205dp"
+        android:layout_marginRight="-15dp"
+        android:layout_marginBottom="3dp"
+        android:text="opcion 1"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/pescado"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/opcion1"
+        android:layout_alignEnd="@id/opcion1"
+        android:layout_alignRight="@id/opcion1"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@drawable/pescado"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/aguacate"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/pescado"
+        android:layout_alignEnd="@id/pescado"
+        android:layout_alignRight="@id/pescado"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="-15dp"
+        app:srcCompat="@drawable/aguacate"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/lechuga"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/aguacate"
+        android:layout_alignEnd="@id/aguacate"
+        android:layout_alignRight="@id/aguacate"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="-15dp"
+        app:srcCompat="@drawable/lechuga"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/papa"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/lechuga"
+        android:layout_alignEnd="@id/lechuga"
+        android:layout_alignRight="@id/lechuga"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="-15dp"
+        app:srcCompat="@drawable/papa"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/arroz"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/papa"
+        android:layout_alignEnd="@id/papa"
+        android:layout_alignRight="@id/papa"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="-15dp"
+        app:srcCompat="@drawable/arroz"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/arroz"
+
+        android:layout_alignEnd="@id/arroz"
+        android:layout_alignRight="@id/arroz"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="-15dp"
+        app:srcCompat="@drawable/jugomora"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+
+</RelativeLayout>

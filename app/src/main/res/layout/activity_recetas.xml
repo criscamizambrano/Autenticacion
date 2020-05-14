@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/receta1"
+    tools:context="com.example.interfaces.Recetas">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="108dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginRight="268dp"
+        android:gravity="center"
+        android:text="Informacion acerca de las recetas"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabPrincipalButton"
+        android:layout_width="368dp"
+        android:layout_height="621dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="83dp"
+        android:layout_marginBottom="20dp"
+        app:menu_fab_label="Clasificacion Recetas">
+
+
+
+        <com.github.clans.fab.FloatingActionButton
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/carne1"
+            app:fab_label="Carnes" />
+
+        <com.github.clans.fab.FloatingActionButton
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pasta1"
+            app:fab_label="Pastas" />
+
+        <com.github.clans.fab.FloatingActionButton
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/arroz"
+            app:fab_label="Arroces" />
+
+        <com.github.clans.fab.FloatingActionButton
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/almuerzo1"
+            app:fab_label="Plato principal" />
+
+        <com.github.clans.fab.FloatingActionButton
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ensalada"
+            app:fab_label="Ensaladas" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:onClick="irSopa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sopa"
+            app:fab_label="Sopas" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

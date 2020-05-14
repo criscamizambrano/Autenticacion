@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frutas"
+    tools:context="com.example.interfaces.ControlDeUsuarios">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="269dp"
+        android:layout_height="238dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="399dp"
+        android:src="@drawable/ajiaco1" />
+
+    <TextView
+        android:id="@+id/textNombre"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="333dp"
+        android:text="TextView"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="267dp"
+        android:text="TextView"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="216dp"
+        android:text="TextView"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="146dp"
+        android:text="Cerrar Sesión" />
+
+
+</RelativeLayout>

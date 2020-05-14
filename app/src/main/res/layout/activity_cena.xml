@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context="com.example.interfaces.Cena">
+
+    <TextView
+        android:id="@+id/cena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cena"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/opcion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cena"
+        android:layout_alignEnd="@id/cena"
+        android:layout_alignRight="@id/cena"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginRight="-55dp"
+        android:layout_marginBottom="3dp"
+        android:background="#0E0E0E"
+        android:text="opcion 1"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageView
+        android:id="@+id/bananos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opcion1"
+        android:layout_alignEnd="@id/opcion1"
+        android:layout_alignRight="@id/opcion1"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginRight="-120dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@drawable/bananas" />
+
+    <ImageView
+        android:id="@+id/yogurt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bananos"
+        android:layout_alignEnd="@id/bananos"
+        android:layout_alignRight="@id/bananos"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@drawable/yogurt" />
+
+    <ImageView
+        android:id="@+id/cereal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yogurt"
+        android:layout_alignEnd="@id/yogurt"
+        android:layout_alignRight="@id/yogurt"
+        android:layout_marginTop="-39dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@drawable/cereal" />
+
+    <ImageView
+        android:id="@+id/Galleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cereal"
+        android:layout_alignEnd="@id/cereal"
+        android:layout_alignRight="@id/cereal"
+        android:layout_marginTop="-52dp"
+        android:layout_marginEnd="-7dp"
+        android:layout_marginRight="-7dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@drawable/galleta" />
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/portada1"
+    tools:context="com.example.interfaces.SeleccionDeComidas">
+
+    <TextView
+        android:id="@+id/menuDeComidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:onClick="irDesayuno"
+        android:text="@string/seleccionDeComidas"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+
+
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabPrincipalButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu_fab_label="Opciones"
+       android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+        <com.github.clans.fab.FloatingActionButton
+            android:onClick="irAlimentos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="@string/alimentos"
+            android:src="@drawable/manzanas"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:onClick="irCena"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="@string/cena"
+            android:src="@drawable/cereal"/>
+        <com.github.clans.fab.FloatingActionButton
+        android:onClick="irAlmuerzo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:fab_label="Almuerzo"
+        android:src="@drawable/almuerzo1"/>
+        <com.github.clans.fab.FloatingActionButton
+            android:onClick="irDesayuno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_label="Desayuno"
+            android:src="@drawable/mangos"/>
+
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:focusable="auto"
+    tools:context="com.example.interfaces.MainActivity">
+
+
+    <Button
+        android:id="@+id/crearCuenta"
+        android:layout_width="239dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="461dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginBottom="105dp"
+        android:background="#FFEB3B"
+        android:filterTouchesWhenObscured="true"
+        android:onClick="Registrarse"
+        android:text="@string/boton_crear_cuenta"
+        android:textColor="#4CAF50"
+        android:textColorHint="#4CAF50"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <Button
+        android:id="@+id/iniciar_sesion"
+        android:layout_width="239dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="204dp"
+        android:background="#FFEB3B"
+        android:filterTouchesWhenObscured="true"
+        android:onClick="iniciarSesion"
+        android:text="@string/boton_iniciar_sesion"
+        android:textColor="#4CAF50"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="531dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="347dp"
+        android:layout_height="346dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:srcCompat="@drawable/logo_jpg" />
+
+    <Button
+        android:id="@+id/ayuda"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:layout_marginBottom="56dp"
+        android:background="?android:attr/panelBackground"
+        android:shadowColor="@android:color/transparent"
+        android:text="@string/ayuda"
+        android:textColor="#4CAF50"
+        android:textSize="10sp" />
+
+
+</RelativeLayout>

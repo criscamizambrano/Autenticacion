@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/corazon"
+    tools:context="com.example.interfaces.Consejos">
+
+    <TextView
+        android:id="@+id/consejos"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="669dp"
+        android:text="@string/consejos"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <CheckBox
+        android:id="@+id/consejos1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/consejos"
+        android:layout_alignRight="@id/consejos"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-215dp"
+        android:layout_marginRight="-215dp"
+        android:layout_marginBottom="607dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="@string/respetas_los_horarios_de_las_comidas"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <CheckBox
+        android:id="@+id/consejos2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/consejos1"
+        android:layout_alignRight="@id/consejos1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="550dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="@string/evitar_los_excesos_de_grasas_satura"
+
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <CheckBox
+        android:id="@+id/consejos3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/consejos2"
+        android:layout_alignRight="@id/consejos2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="494dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="@string/evitar_los_excesos_de_sal"
+
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <CheckBox
+        android:id="@+id/consejos4"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/consejos3"
+        android:layout_alignRight="@id/consejos3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="-2dp"
+        android:layout_marginBottom="438dp"
+
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="@string/evitar_los_excesos_de_azucar"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <CheckBox
+        android:id="@+id/consejos5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/consejos4"
+        android:layout_alignRight="@id/consejos4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="375dp"
+
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="@string/realizar_actividad_fisica_acorde_a_su_fisico_edad_y_preferencias"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <CheckBox
+        android:id="@+id/consejos6"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/consejos5"
+        android:layout_alignRight="@id/consejos5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="317dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="@string/dormir_mas_de_7_horas"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <CheckBox
+        android:id="@+id/consejos7"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/consejos6"
+        android:layout_alignRight="@id/consejos6"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="256dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="@string/beba_muchos_liquidos"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <CheckBox
+        android:id="@+id/consejos8"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/consejos7"
+        android:layout_alignRight="@id/consejos7"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="203dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="@string/procure_comer_despacio"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <CheckBox
+        android:id="@+id/consejos9"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/consejos8"
+        android:layout_alignRight="@id/consejos8"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="141dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="@string/lave_bien_los_alimentos_antes_de_su_preparacion"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+
+</RelativeLayout>

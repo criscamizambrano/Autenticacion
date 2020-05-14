@@ -1,0 +1,57 @@
+<resources>
+    <!--Strings de activity_main-->
+    <string name="app_name">Alimapp</string>
+    <string name="boton_crear_cuenta">Crear Cuenta</string>
+    <string name="boton_iniciar_sesion">Iniciar Sesión</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="seleccionarPlatillo">Seleccionar platillo</string>
+    <string name="recetas">Recetas</string>
+    <string name="alimentos">Alimentos</string>
+    <string name="consejos">Consejos</string>
+    <string name="SopaArroz">Sopa de Arroz</string>
+    <string name="SopaPasta">Sopa de Pasta</string>
+    <string name="SopaTomate">Sopa de Tomates</string>
+    <string name="Ajiaco">Ajiaco</string>
+
+
+    <string name="menuPrincipal">Menú Principal</string>
+    <string name="menuSopas">Menu Sopas</string>
+    <string name="buscarRecetas">Cual comida desea preparar</string>
+
+    <string name="ayuda">¿Necesitas ayuda?</string>
+    <string name="tituloAlimentos">Encuentre información sobre alimentos en su sector</string>
+    <string name="title_activity_panel_control_usuario">Control usuario</string>
+    <string name="ingresarDatos">Ingresar Datos</string>
+    <string name="nombre">Nombres</string>
+
+    <string name="apellido">Apellidos</string>
+    <string name="desayuno">Desayuno</string>
+    <string name="almuerzo">Almuerzo</string>
+    <string name="cena">Cena</string>
+    <string name="seleccionDeComidas">Clasificacion  De Comidas</string>
+
+    <string name="respetas_los_horarios_de_las_comidas">Respetas los horarios de las comidas</string>
+    <string name="evitar_los_excesos_de_azucar">Evitar los excesos de azucar</string>
+    <string name="realizar_actividad_fisica_acorde_a_su_fisico_edad_y_preferencias">Realizar actividad fisica acorde a su fisico , edad y preferencias</string>
+    <string name="beba_muchos_liquidos">Beba muchos liquidos</string>
+    <string name="evitar_los_excesos_de_grasas_satura">Evitar los excesos de grasas satura</string>
+    <string name="procure_comer_despacio">Procure comer despacio</string>
+    <string name="lave_bien_los_alimentos_antes_de_su_preparacion">Lave bien los alimentos antes de su preparacion</string>
+    <string name="evitar_los_excesos_de_sal">Evitar los excesos de sal</string>
+    <string name="dormir_mas_de_7_horas">Dormir mas de 7 horas</string>
+    <string name="he_leido_y_acepto_los_terminos_y_condiciones_de_alimapp">He leido y acepto los terminos y condiciones de ALIMAPP</string>
+
+
+    <!-- Strings de activity_iniciar_sesion-->
+    <string name="ingresar">Ingresar a Alimapp</string>
+    <string name="instrucciones_iniciar_sesion">Bienvenido de nuevo, por favor ingrese su correo electrónico y contraseña para continuar.</string>
+    <string name="opcion_google">O ingrese usando su cuenta de Google</string>
+    <string name="boton_google">Acceda con Google</string>
+    <string name="olvido_contrasena">¿Olvidó su contraseña?</string>
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+
+</resources>

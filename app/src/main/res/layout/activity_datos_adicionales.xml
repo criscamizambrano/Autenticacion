@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context=".DatosAdicionales">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="341dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="575dp"
+        app:srcCompat="@drawable/logo_png"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="516dp"
+        android:fontFamily="@font/crimson_text_bold_italic"
+        android:text="Datos adicionales:"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <EditText
+        android:id="@+id/nombre_registro2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:layout_marginBottom="453dp"
+        android:autofillHints="122dp"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/clave_registro2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="324dp"
+        android:autofillHints=""
+
+        android:ems="10"
+        android:hint="Altura"
+        android:inputType="textPassword"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <EditText
+        android:id="@+id/clave_val_registro2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="391dp"
+        android:autofillHints=""
+
+        android:ems="10"
+        android:hint="Peso"
+
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <Button
+        android:id="@+id/button_registro2"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="226dp"
+        android:text="Registrar datos adicionales"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="116dp" />
+</RelativeLayout>
